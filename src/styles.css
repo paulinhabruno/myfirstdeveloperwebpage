@@ -1,0 +1,18 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import "~bootstrap/dist/css/bootstrap.css";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --primary: #05F2F2;
+  --secundary: #05DBF2;
+  --terciary: #034AA6;
+  --fundo: #162C40;
+  --forLinks: #D94E5A;
+}
+
