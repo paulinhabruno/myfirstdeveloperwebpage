@@ -1,41 +1,12 @@
-* {
-  margin: 10px;
-  padding: 1px;
-
-}
-
-header {
-  background-color: var(--secundary);
- font-style: italic;
- width: 100vw;
- padding: 0px 20px 0px 20px;
-}
-
-h1{
-  padding-top: 20px;
-}
-a{
-  padding: 5px;
-  font-weight: bold;
-  font-size: 20px;
-  }
-
-  nav{
-  display: flex;
-  flex-direction: row-reverse;
-  align-items: flex-end;
-
-  }
-
-  body{
+body{
   height: auto;
   width: 100vw;
   padding: 20px;
   display: flex;
   position: relative;
   background-color: var(--fundo);
+  color: white;
 }
-
 .avatar{
   height: 400px;
   border-radius:50%;
@@ -50,8 +21,4 @@ article{
   margin-top: 20px;
 }
 
-footer{
-  padding: 0px 10px 0px 20px;
-  align-items: flex-end;
-}
 

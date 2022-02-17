@@ -2,7 +2,7 @@ body{
   height: auto;
   width: 100vw;
   padding: 20px;
-
+  
   background-color: var(--fundo);
   color: white;
 }
@@ -12,6 +12,5 @@ p{
   font-weight: bold;
   font-style: italic;
   text-align: center;
-  padding: 50px;
+  padding: 100px;
 }
-

@@ -1,1 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Montserrat:wght@100&display=swap');
+
+
+* {
+  margin: 0px;
+  padding: 1px;
+
+}
+
+header {
+  height: 70px;
+
+ width: 100vw;
+ padding: 10px 10px 20px 20px;
+}
+
+.navbar{
+  padding: 10px 10px 10px 20px;
+  background-color: var(--secundary);
+}
+h2{
+  padding-top: 10px;
+  padding-left: 20px;
+  color: var(--fundo);
+  font-size: 45px;
+  font-style: italic;
+  font-family: 'Akaya Telivigala', cursive;
+
+}
+a{
+  padding: 1px 10px 1px 10px;
+  font-weight: bold;
+  font-size: 15px;
+  background-color: rgb(255, 254, 254);
+  border-radius: 20px;
+  text-decoration: none;
+
+  }
+
+  nav{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+
+
+  }
+
+  body{
+  height: auto;
+  width: 100vw;
+  padding: 20px 20px 10px 20px;
+  display: flex;
+  position: relative;
+  background-color: var(--fundo);
+  color: white;
+}
+
+.avatar{
+  height: 400px;
+  border-radius:50%;
+}
+
+article{
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+  position: absolute;
+  margin-left: 600px;
+  margin-top: 20px;
+}
+
+footer{
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px 20px 10px;
+}
 
