@@ -1,0 +1,43 @@
+body{
+  background-color: var(--fundo);
+  color: white;
+  width: 100%;
+  height: 100%;
+}
+
+.mostrador{
+  margin: auto;
+
+  width: 252px;
+  margin-top: 5px;
+  padding-top: 10px;
+  margin-bottom: 30px;
+
+}
+
+p{
+  float: left;
+  margin-right: 40px;
+}
+
+img{
+  border: 0;
+  width: 30px;
+}
+
+.espaco{
+  width: 80px;
+  height: 80px;
+  border: 2px solid #000;
+  float: left;
+  background-color: white;
+  text-align: center;
+  padding-top: 20px
+}
+
+.tabuleiro{
+  width: 252px;
+  height: 252px;
+  margin: auto;
+}
+
